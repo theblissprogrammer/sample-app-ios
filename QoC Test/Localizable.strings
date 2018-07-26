@@ -1,0 +1,17 @@
+/* 
+  Localizable.strings
+  QoC Test
+
+  Created by Ahmed Saad on 2018-07-25.
+  
+*/
+
+
+"loading" = "Loading...";
+"unauthorized.error.title" = "Unauthorized Access";
+"no.data.message" = "No data results";
+"no.longer.authorized.error.message" = "Your session has expired or is no longer valid. Please log in again.";
+"could.not.send.email" = "Could Not Send Email";
+"could.not.send.email.message" = "Your device could not send e-mail. Please contact Jiffy at jerry@jiffyondemand.com.";
+"entry.title" = "Top 100";
+"entry.error.title" = "Entry Error";
