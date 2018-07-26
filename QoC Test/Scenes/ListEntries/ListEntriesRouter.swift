@@ -18,9 +18,9 @@ struct ListEntriesRouter {
 extension ListEntriesRouter: ListEntriesRoutable {
     
     func showEntry(id: String) {
-        /*show(storyboard: .showCreditCard) { (controller: ShowCreditCardViewController) in
-            controller.creditCardID = id
-        }*/
+        show(storyboard: .showEntry) { (controller: ShowEntryViewController) in
+            controller.entryID = id
+        }
     }
 }
 

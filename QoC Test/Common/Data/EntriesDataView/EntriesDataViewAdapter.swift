@@ -22,7 +22,6 @@ class EntriesDataViewAdapter: NSObject {
         if let tableView = dataView as? UITableView {
             tableView.delegate = self
             tableView.dataSource = self
-            tableView.rowHeight = UITableViewAutomaticDimension
         } else if let collectionView = dataView as? UICollectionView {
             collectionView.delegate = self
             collectionView.dataSource = self

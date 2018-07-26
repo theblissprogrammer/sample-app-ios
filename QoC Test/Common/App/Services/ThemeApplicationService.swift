@@ -1,13 +1,11 @@
 //
-//  ThemeApplicationService.swift
-//  Basem Emara
+//  ThemeApplicationService.swift\
 //
-//  Created by Basem Emara on 2018-06-17.
-//  Copyright © 2018 Zamzam Inc. All rights reserved.
+//  Created by Ahmed Saad on 2018-07-26.
 //
 
 import UIKit
-import SwiftyPress
+import QocBusinessLogic
 import ZamzamKit
 
 final class ThemeApplicationService: ApplicationService {

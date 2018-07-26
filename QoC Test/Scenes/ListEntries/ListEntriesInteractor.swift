@@ -5,7 +5,7 @@
 //  Created by Ahmed Saad on 2018-07-25.
 //
 
-import SwiftyPress
+import QocBusinessLogic
 
 struct ListEntriesInteractor: ListEntriesBusinessLogic {
     private let presenter: ListEntriesPresentable

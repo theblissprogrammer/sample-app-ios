@@ -1,12 +1,10 @@
 //
 //  AppDependency.swift
-//  Basem Emara
 //
-//  Created by Basem Emara on 2018-06-17.
-//  Copyright © 2018 Zamzam Inc. All rights reserved.
+//  Created by Ahmed Saad on 2018-07-26.
 //
 
-import SwiftyPress
+import QocBusinessLogic
 
 class AppDependency: Dependency {
     

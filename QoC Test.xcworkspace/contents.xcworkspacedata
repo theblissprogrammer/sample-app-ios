@@ -5,6 +5,6 @@
       location = "container:/Users/ahmedsaad/Developer/QoCiOS/QoC Test.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:Submodules/SwiftyPress/SwiftyPress.xcodeproj">
+      location = "group:Submodules/QoCBusinessLogic/QoCBusinessLogic.xcodeproj">
    </FileRef>
 </Workspace>

@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import SwiftyPress
+import QocBusinessLogic
 import ZamzamKit
 
 struct ListEntriesPresenter: ListEntriesPresentable {
@@ -44,7 +44,7 @@ private extension ListEntriesPresenter {
         return EntryDataViewModel(
             id: object.id,
             title: object.title,
-            imageURL: object.thumbnails[0].link ?? ""
+            imageURL: object.thumbnails.first { $0.height == "75" }?.link ?? ""
         )
     }
 }

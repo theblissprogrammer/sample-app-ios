@@ -1,9 +1,7 @@
 //
 //  UIImage.swift
-//  Basem Emara
 //
-//  Created by Basem Emara on 2018-06-24.
-//  Copyright © 2018 Zamzam Inc. All rights reserved.
+//  Created by Ahmed Saad on 2018-07-25.
 //
 
 import UIKit

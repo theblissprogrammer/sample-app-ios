@@ -1,9 +1,8 @@
 //
-//  Basem_Emara_iOSTests.swift
-//  Basem Emara iOSTests
+//  QoC_Test_iOSTests.swift
+//  QoC_Test_iOSTests
 //
-//  Created by Basem Emara on 2018-05-30.
-//  Copyright © 2018 Zamzam Inc. All rights reserved.
+//  Created by Ahmed Saad on 2018-07-25.
 //
 
 import XCTest

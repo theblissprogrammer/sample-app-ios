@@ -1,13 +1,11 @@
 //
-//  FavoritesViewController.swift
-//  Basem Emara
+//  ListEntriesViewController.swift
 //
-//  Created by Basem Emara on 2018-05-24.
-//  Copyright © 2018 Zamzam Inc. All rights reserved.
+//  Created by Ahmed Saad on 2018-07-26.
 //
 
 import UIKit
-import SwiftyPress
+import QocBusinessLogic
 import ZamzamKit
 
 class ListEntriesViewController: UIViewController, HasDependencies {
@@ -30,7 +28,7 @@ class ListEntriesViewController: UIViewController, HasDependencies {
     )
     
     // MARK: - Internal variables
-    private lazy var dataViewAdapter: EntriesDataViewAdapter = ListEntriesDataViewAdapter(
+    private lazy var dataViewAdapter: EntriesDataViewAdapter = EntriesDataViewAdapter(
         delegate: self,
         for: tableView
     )
@@ -74,7 +72,7 @@ extension ListEntriesViewController: ListEntriesDisplayable {
 
 extension ListEntriesViewController: EntriesDataViewDelegate {
     func entriesDataView(didSelect model: EntryDataViewModel, at indexPath: IndexPath, from dataView: DataViewable) {
-
+        router.showEntry(id: model.id)
     }
     
     func entriesDataViewDidReloadData() {

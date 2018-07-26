@@ -5,7 +5,7 @@
 //  Created by Ahmed Saad on 2018-07-25.
 //
 
-import SwiftyPress
+import QocBusinessLogic
 
 protocol ListEntriesDisplayable: class, AppDisplayable {
     func displayFetchedEntries(with viewModel: ListEntriesModels.ViewModel)
@@ -20,7 +20,7 @@ protocol ListEntriesPresentable {
     func presentFetchedEntries(error: DataError)
 }
 
-protocol ListEntriesRoutable {
+protocol ListEntriesRoutable: AppRoutable {
     func showEntry(id: String)
 }
 
