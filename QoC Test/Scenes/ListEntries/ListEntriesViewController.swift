@@ -57,6 +57,10 @@ private extension ListEntriesViewController {
     }
     
     func loadData() {
+        if dataViewAdapter.viewModels.isEmpty {
+            showSpinner()
+        }
+        
         interactor.fetchEntries()
     }
 }
@@ -67,6 +71,8 @@ extension ListEntriesViewController: ListEntriesDisplayable {
     
     func displayFetchedEntries(with viewModel: ListEntriesModels.ViewModel) {
         dataViewAdapter.reloadData(with: viewModel.entries)
+        
+        endRefreshing()
     }
 }
 

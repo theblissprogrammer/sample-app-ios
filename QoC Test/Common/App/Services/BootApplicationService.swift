@@ -25,7 +25,7 @@ extension BootApplicationService {
     }
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey : Any]?) -> Bool {
-        window?.rootViewController = UIStoryboard(name: "Main", bundle: nil).instantiateInitialViewController()
+        window?.rootViewController = UIStoryboard(name: "ListEntries", bundle: nil).instantiateInitialViewController()
         return true
     }
 }

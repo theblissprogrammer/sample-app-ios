@@ -25,7 +25,6 @@ enum ShowEntryModels {
         let price: String
         let category: String
         let link: String
-        let publisherName: String
-        let publisherLink: String
+        let publisher: String
     }
 }

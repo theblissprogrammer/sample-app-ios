@@ -38,8 +38,7 @@ extension ShowEntryPresenter {
             price: .localizedStringWithFormat("%.2f \(response.entry.currency)", response.entry.price),
             category: response.entry.category?.name ?? "",
             link: response.entry.link,
-            publisherName: response.entry.author?.name ?? "",
-            publisherLink: response.entry.author?.link ?? ""
+            publisher: (response.entry.author?.name ?? "") + " " + (response.entry.author?.link ?? "")
         )
         
         viewController?.displayFetchedEntry(with: viewModel)

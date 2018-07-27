@@ -249,14 +249,11 @@
 		C50BCE1E210A2A6300A1EE1C /* EntryType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryType.swift; sourceTree = "<group>"; };
 		C50BCE1F210A2A6300A1EE1C /* EntriesStoreInterfaces.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntriesStoreInterfaces.swift; sourceTree = "<group>"; };
 		C50BCE20210A2A6300A1EE1C /* EntriesNetworkStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntriesNetworkStore.swift; sourceTree = "<group>"; };
-		C50BCE29210A2B3800A1EE1C /* EntriesNetworkStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EntriesNetworkStore.swift; path = Sources/Stores/Entries/EntriesNetworkStore.swift; sourceTree = "<group>"; };
-		C50BCE2A210A2B3800A1EE1C /* EntriesStoreInterfaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EntriesStoreInterfaces.swift; path = Sources/Stores/Entries/EntriesStoreInterfaces.swift; sourceTree = "<group>"; };
 		C50BCE2C210A2B3800A1EE1C /* EntriesModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntriesModels.swift; sourceTree = "<group>"; };
 		C50BCE2D210A2B3800A1EE1C /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
 		C50BCE2E210A2B3800A1EE1C /* ThumbnailsType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailsType.swift; sourceTree = "<group>"; };
 		C50BCE2F210A2B3800A1EE1C /* Thumbnails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thumbnails.swift; sourceTree = "<group>"; };
 		C50BCE30210A2B3800A1EE1C /* EntryType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryType.swift; sourceTree = "<group>"; };
-		C50BCE31210A2B3800A1EE1C /* EntriesWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EntriesWorker.swift; path = Sources/Stores/Entries/EntriesWorker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -326,9 +323,6 @@
 		8B00E3A020B2D97500B20B2C = {
 			isa = PBXGroup;
 			children = (
-				C50BCE29210A2B3800A1EE1C /* EntriesNetworkStore.swift */,
-				C50BCE2A210A2B3800A1EE1C /* EntriesStoreInterfaces.swift */,
-				C50BCE31210A2B3800A1EE1C /* EntriesWorker.swift */,
 				C50BCE2B210A2B3800A1EE1C /* Models */,
 				8B00E41120B30D7800B20B2C /* Meta */,
 				8B00E3CF20B2DB3200B20B2C /* Sources */,

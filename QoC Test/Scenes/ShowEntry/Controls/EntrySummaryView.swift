@@ -42,7 +42,7 @@ extension EntrySummaryView {
         summaryLabel.text = viewModel.summary
         priceLabel.text = viewModel.price
         categoryLabel.text = viewModel.category
-        publisherLabel.text = viewModel.publisherName + " " + viewModel.publisherLink
+        publisherLabel.text = viewModel.publisher
         appStoreLabel.text = viewModel.link
     }
 }
