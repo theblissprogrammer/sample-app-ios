@@ -24,11 +24,12 @@ public extension EntriesMemoryStore {
                 currency: "USD",
                 contentType: "Application",
                 copyright: "Ahmed Saad",
+                title: "App Ahmed",
                 link: "",
                 author: Author(),
                 category: Category(),
                 releaseDate: Date()
-            )
+            )        
             ]))
     }
 }

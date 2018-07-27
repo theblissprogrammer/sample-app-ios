@@ -23,6 +23,34 @@ public struct Entry: EntryType, Decodable {
     public var releaseDate: Date = .distantPast
     
     public init() { }
+    
+    public init(id: Int,
+                name: String,
+                thumbnails: [Thumbnails],
+                summary: String,
+                price: Double,
+                currency: String,
+                contentType: String,
+                copyright: String,
+                title: String,
+                link: String,
+                author: Author?,
+                category: Category?,
+                releaseDate: Date) {
+        
+        self.id = id
+        self.thumbnails = thumbnails
+        self.summary = summary
+        self.price = price
+        self.currency = currency
+        self.contentType = contentType
+        self.copyright = copyright
+        self.title = title
+        self.link = link
+        self.author = author
+        self.category = category
+        self.releaseDate = releaseDate
+    }
 }
 
 // MARK: - For JSON decoding

@@ -212,7 +212,7 @@
 		C50BCE20210A2A6300A1EE1C /* EntriesNetworkStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntriesNetworkStore.swift; sourceTree = "<group>"; };
 		C582CF97210B62100045AC3E /* EntriesMemoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntriesMemoryStore.swift; sourceTree = "<group>"; };
 		C582CF9B210B65560045AC3E /* EntriesWorkerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntriesWorkerTests.swift; sourceTree = "<group>"; };
-		C582CFA1210B67670045AC3E /* QocBusinessLogicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QocBusinessLogicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C582CFA1210B67670045AC3E /* QocBusinessLogic Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QocBusinessLogic Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C582CFA3210B67670045AC3E /* QocBusinessLogicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QocBusinessLogicTests.swift; sourceTree = "<group>"; };
 		C582CFA5210B67670045AC3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -298,7 +298,7 @@
 				8B0D646C20BEB27B0046056F /* QoCBusinessLogic tvOSTests.xctest */,
 				8B0D647D20BEB7100046056F /* QoCBusinessLogic Example iOS.app */,
 				8B0D649420BEB7220046056F /* QoCBusinessLogic Example TV.app */,
-				C582CFA1210B67670045AC3E /* QocBusinessLogicTests.xctest */,
+				C582CFA1210B67670045AC3E /* QocBusinessLogic Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -664,9 +664,9 @@
 			productReference = 8B0D649420BEB7220046056F /* QoCBusinessLogic Example TV.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C582CFA0210B67670045AC3E /* QocBusinessLogicTests */ = {
+		C582CFA0210B67670045AC3E /* QocBusinessLogic Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C582CFA9210B67670045AC3E /* Build configuration list for PBXNativeTarget "QocBusinessLogicTests" */;
+			buildConfigurationList = C582CFA9210B67670045AC3E /* Build configuration list for PBXNativeTarget "QocBusinessLogic Tests" */;
 			buildPhases = (
 				C582CF9D210B67670045AC3E /* Sources */,
 				C582CF9E210B67670045AC3E /* Frameworks */,
@@ -677,9 +677,9 @@
 			dependencies = (
 				C582CFA8210B67670045AC3E /* PBXTargetDependency */,
 			);
-			name = QocBusinessLogicTests;
+			name = "QocBusinessLogic Tests";
 			productName = QocBusinessLogicTests;
-			productReference = C582CFA1210B67670045AC3E /* QocBusinessLogicTests.xctest */;
+			productReference = C582CFA1210B67670045AC3E /* QocBusinessLogic Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -734,10 +734,10 @@
 				8B00E3AB20B2DA0C00B20B2C /* QoCBusinessLogic iOS */,
 				8B00E3B920B2DA7A00B20B2C /* QoCBusinessLogic watchOS */,
 				8B00E3C620B2DAE100B20B2C /* QoCBusinessLogic tvOS */,
+				C582CFA0210B67670045AC3E /* QocBusinessLogic Tests */,
 				8B0D646B20BEB27B0046056F /* QoCBusinessLogic tvOSTests */,
 				8B0D647C20BEB7100046056F /* QoCBusinessLogic Example iOS */,
 				8B0D649320BEB7220046056F /* QoCBusinessLogic Example TV */,
-				C582CFA0210B67670045AC3E /* QocBusinessLogicTests */,
 			);
 		};
 /* End PBXProject section */
@@ -806,13 +806,7 @@
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/SwiftyBeaver.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Arcane.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/KeychainSwift.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Realm.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/RealmSwift.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/ZamzamKit.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
 			);
 			name = "Run Carthage Script";
 			outputPaths = (
@@ -827,13 +821,7 @@
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/tvOS/SwiftyBeaver.framework",
-				"$(SRCROOT)/Carthage/Build/tvOS/Arcane.framework",
-				"$(SRCROOT)/Carthage/Build/tvOS/KeychainSwift.framework",
-				"$(SRCROOT)/Carthage/Build/tvOS/Realm.framework",
-				"$(SRCROOT)/Carthage/Build/tvOS/RealmSwift.framework",
 				"$(SRCROOT)/Carthage/Build/tvOS/ZamzamKit.framework",
-				"$(SRCROOT)/Carthage/Build/tvOS/Alamofire.framework",
 			);
 			name = "Run Carthage Script";
 			outputPaths = (
@@ -2507,6 +2495,10 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = YE62CZBV3P;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -2554,6 +2546,10 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = YE62CZBV3P;
 				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
@@ -2597,6 +2593,10 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = YE62CZBV3P;
 				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
@@ -2692,7 +2692,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C582CFA9210B67670045AC3E /* Build configuration list for PBXNativeTarget "QocBusinessLogicTests" */ = {
+		C582CFA9210B67670045AC3E /* Build configuration list for PBXNativeTarget "QocBusinessLogic Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C582CFAA210B67670045AC3E /* Debug */,
