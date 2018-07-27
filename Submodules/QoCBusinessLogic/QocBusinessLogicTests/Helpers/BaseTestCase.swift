@@ -2,7 +2,7 @@
 //  BaseTestCase.swift
 //  QocBusinessLogic
 //
-//  Created by Basem Emara on 2018-06-12.
+//  Created by Ahmed Saad 2018-07-27.
 //
 
 import XCTest

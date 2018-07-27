@@ -18,9 +18,6 @@
 		8B47A5CD20E0155900681404 /* ListEntriesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B47A5CC20E0155900681404 /* ListEntriesTableViewCell.xib */; };
 		8B47A5DC20E107C100681404 /* AppButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B47A5DB20E107C100681404 /* AppButton.swift */; };
 		8B47A5DE20E107CB00681404 /* AppLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B47A5DD20E107CB00681404 /* AppLabel.swift */; };
-		8B5B459C20B310D40088DF60 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B5B459520B310D40088DF60 /* Realm.framework */; };
-		8B5B459F20B310D40088DF60 /* ZamzamKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B5B459820B310D40088DF60 /* ZamzamKit.framework */; };
-		8B5B45A020B310D40088DF60 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B5B459920B310D40088DF60 /* RealmSwift.framework */; };
 		8B68A38520B1CB72000CEB50 /* PKHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B68A38220B1CB71000CEB50 /* PKHUD.framework */; };
 		8B68A38620B1CB72000CEB50 /* TinyConstraints.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B68A38320B1CB72000CEB50 /* TinyConstraints.framework */; };
 		8B68A38720B1CB72000CEB50 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B68A38420B1CB72000CEB50 /* Kingfisher.framework */; };
@@ -105,9 +102,6 @@
 		8B47A5CC20E0155900681404 /* ListEntriesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListEntriesTableViewCell.xib; sourceTree = "<group>"; };
 		8B47A5DB20E107C100681404 /* AppButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppButton.swift; sourceTree = "<group>"; };
 		8B47A5DD20E107CB00681404 /* AppLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLabel.swift; sourceTree = "<group>"; };
-		8B5B459520B310D40088DF60 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Submodules/SwiftyPress/Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
-		8B5B459820B310D40088DF60 /* ZamzamKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ZamzamKit.framework; path = Submodules/SwiftyPress/Carthage/Build/iOS/ZamzamKit.framework; sourceTree = "<group>"; };
-		8B5B459920B310D40088DF60 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Submodules/SwiftyPress/Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
 		8B68A38220B1CB71000CEB50 /* PKHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PKHUD.framework; path = Carthage/Build/iOS/PKHUD.framework; sourceTree = "<group>"; };
 		8B68A38320B1CB72000CEB50 /* TinyConstraints.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TinyConstraints.framework; path = Carthage/Build/iOS/TinyConstraints.framework; sourceTree = "<group>"; };
 		8B68A38420B1CB72000CEB50 /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
@@ -157,10 +151,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B5B459C20B310D40088DF60 /* Realm.framework in Frameworks */,
 				C50BCE33210A2BE900A1EE1C /* QocBusinessLogic.framework in Frameworks */,
-				8B5B45A020B310D40088DF60 /* RealmSwift.framework in Frameworks */,
-				8B5B459F20B310D40088DF60 /* ZamzamKit.framework in Frameworks */,
 				8B68A38520B1CB72000CEB50 /* PKHUD.framework in Frameworks */,
 				8B68A38620B1CB72000CEB50 /* TinyConstraints.framework in Frameworks */,
 				8B68A38720B1CB72000CEB50 /* Kingfisher.framework in Frameworks */,
@@ -235,9 +226,6 @@
 		8B1DC0E720B1AFE1009FBBBD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8B5B459520B310D40088DF60 /* Realm.framework */,
-				8B5B459920B310D40088DF60 /* RealmSwift.framework */,
-				8B5B459820B310D40088DF60 /* ZamzamKit.framework */,
 				8B68A38420B1CB72000CEB50 /* Kingfisher.framework */,
 				8B68A38220B1CB71000CEB50 /* PKHUD.framework */,
 				8B68A38320B1CB72000CEB50 /* TinyConstraints.framework */,
@@ -565,8 +553,6 @@
 				"$(SRCROOT)/Carthage/Build/iOS/TinyConstraints.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Kingfisher.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/PKHUD.framework",
-				"$(SRCROOT)/Submodules/QoCBusinessLogic/Carthage/Build/iOS/Realm.framework",
-				"$(SRCROOT)/Submodules/QoCBusinessLogic/Carthage/Build/iOS/RealmSwift.framework",
 				"$(SRCROOT)/Submodules/QoCBusinessLogic/Carthage/Build/iOS/ZamzamKit.framework",
 			);
 			name = "Run Carthage Script";
