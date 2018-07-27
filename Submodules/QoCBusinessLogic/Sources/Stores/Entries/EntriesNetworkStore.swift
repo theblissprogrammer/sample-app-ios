@@ -8,17 +8,17 @@
 import ZamzamKit
 
 public struct EntriesNetworkStore: EntriesStore {
-    private let apiService: HTTPServiceType
+    private let httpService: HTTPServiceType
     
-    public init(apiService: HTTPServiceType) {
-        self.apiService = apiService
+    public init(httpService: HTTPServiceType) {
+        self.httpService = httpService
     }
 }
 
 public extension EntriesNetworkStore {
     
     func fetch(completion: @escaping (Result<[EntryType], DataError>) -> Void) {
-        apiService.get(
+        httpService.get(
             urlString: "http://phobos.apple.com/WebObjects/MZStoreServices.woa/ws/RSS/toppaidapplications/limit=100/json",
             completion: {
                 // Handle errors if applicable

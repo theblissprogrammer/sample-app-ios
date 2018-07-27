@@ -9,7 +9,7 @@ import QocBusinessLogic
 
 enum ShowEntryModels {
     struct Request {
-        let entryID: String
+        let entryID: Int
     }
     
     struct Response {
@@ -17,6 +17,7 @@ enum ShowEntryModels {
     }
     
     struct ViewModel {
+        let name: String
         let title: String
         let iconUrl: String
         let releaseDate: String

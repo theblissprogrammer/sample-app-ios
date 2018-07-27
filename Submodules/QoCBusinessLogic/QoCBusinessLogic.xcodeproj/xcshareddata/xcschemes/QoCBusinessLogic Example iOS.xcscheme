@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8B0D647C20BEB7100046056F"
-               BuildableName = "SwiftyPress Example iOS.app"
-               BlueprintName = "SwiftyPress Example iOS"
+               BuildableName = "QoCBusinessLogic Example iOS.app"
+               BlueprintName = "QoCBusinessLogic Example iOS"
                ReferencedContainer = "container:QoCBusinessLogic.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -33,8 +33,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8B0D645B20BEB26B0046056F"
-               BuildableName = "SwiftyPress iOSTests.xctest"
-               BlueprintName = "SwiftyPress iOSTests"
+               BuildableName = "QoCBusinessLogic iOSTests.xctest"
+               BlueprintName = "QoCBusinessLogic iOSTests"
                ReferencedContainer = "container:QoCBusinessLogic.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -43,8 +43,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8B0D647C20BEB7100046056F"
-            BuildableName = "SwiftyPress Example iOS.app"
-            BlueprintName = "SwiftyPress Example iOS"
+            BuildableName = "QoCBusinessLogic Example iOS.app"
+            BlueprintName = "QoCBusinessLogic Example iOS"
             ReferencedContainer = "container:QoCBusinessLogic.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -66,8 +66,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8B0D647C20BEB7100046056F"
-            BuildableName = "SwiftyPress Example iOS.app"
-            BlueprintName = "SwiftyPress Example iOS"
+            BuildableName = "QoCBusinessLogic Example iOS.app"
+            BlueprintName = "QoCBusinessLogic Example iOS"
             ReferencedContainer = "container:QoCBusinessLogic.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -85,8 +85,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8B0D647C20BEB7100046056F"
-            BuildableName = "SwiftyPress Example iOS.app"
-            BlueprintName = "SwiftyPress Example iOS"
+            BuildableName = "QoCBusinessLogic Example iOS.app"
+            BlueprintName = "QoCBusinessLogic Example iOS"
             ReferencedContainer = "container:QoCBusinessLogic.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

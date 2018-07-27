@@ -7,11 +7,11 @@
 import Foundation
 
 public protocol EntryType {
-    var id: String { get set }
+    var id: Int { get set }
     var name: String { get set }
     var thumbnails: [Thumbnails] { get set }
     var summary: String { get set }
-    var price: String { get set }
+    var price: Double { get set }
     var currency: String { get set }
     var contentType: String { get set }
     var copyright: String { get set }

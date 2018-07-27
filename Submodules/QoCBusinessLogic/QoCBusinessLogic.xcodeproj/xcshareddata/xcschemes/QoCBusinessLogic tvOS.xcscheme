@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8B00E3C620B2DAE100B20B2C"
-               BuildableName = "SwiftyPress.framework"
-               BlueprintName = "SwiftyPress tvOS"
+               BuildableName = "QocBusinessLogic.framework"
+               BlueprintName = "QoCBusinessLogic tvOS"
                ReferencedContainer = "container:QoCBusinessLogic.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,8 +46,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8B00E3C620B2DAE100B20B2C"
-            BuildableName = "SwiftyPress.framework"
-            BlueprintName = "SwiftyPress tvOS"
+            BuildableName = "QocBusinessLogic.framework"
+            BlueprintName = "QoCBusinessLogic tvOS"
             ReferencedContainer = "container:QoCBusinessLogic.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -64,8 +64,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8B00E3C620B2DAE100B20B2C"
-            BuildableName = "SwiftyPress.framework"
-            BlueprintName = "SwiftyPress tvOS"
+            BuildableName = "QocBusinessLogic.framework"
+            BlueprintName = "QoCBusinessLogic tvOS"
             ReferencedContainer = "container:QoCBusinessLogic.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

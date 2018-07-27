@@ -17,7 +17,7 @@ struct ListEntriesRouter {
 
 extension ListEntriesRouter: ListEntriesRoutable {
     
-    func showEntry(id: String) {
+    func showEntry(id: Int) {
         show(storyboard: .showEntry) { (controller: ShowEntryViewController) in
             controller.entryID = id
         }

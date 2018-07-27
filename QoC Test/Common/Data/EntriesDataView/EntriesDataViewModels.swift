@@ -5,7 +5,7 @@
 //
 
 struct EntryDataViewModel {
-    let id: String
+    let id: Int
     let title: String
     let imageURL: String?
 }

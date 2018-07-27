@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8B00E3B920B2DA7A00B20B2C"
-               BuildableName = "SwiftyPress.framework"
-               BlueprintName = "SwiftyPress watchOS"
+               BuildableName = "QocBusinessLogic.framework"
+               BlueprintName = "QoCBusinessLogic watchOS"
                ReferencedContainer = "container:QoCBusinessLogic.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,8 +46,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8B00E3B920B2DA7A00B20B2C"
-            BuildableName = "SwiftyPress.framework"
-            BlueprintName = "SwiftyPress watchOS"
+            BuildableName = "QocBusinessLogic.framework"
+            BlueprintName = "QoCBusinessLogic watchOS"
             ReferencedContainer = "container:QoCBusinessLogic.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -64,8 +64,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8B00E3B920B2DA7A00B20B2C"
-            BuildableName = "SwiftyPress.framework"
-            BlueprintName = "SwiftyPress watchOS"
+            BuildableName = "QocBusinessLogic.framework"
+            BlueprintName = "QoCBusinessLogic watchOS"
             ReferencedContainer = "container:QoCBusinessLogic.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

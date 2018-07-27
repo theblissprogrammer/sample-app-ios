@@ -21,7 +21,7 @@ protocol ListEntriesPresentable {
 }
 
 protocol ListEntriesRoutable: AppRoutable {
-    func showEntry(id: String)
+    func showEntry(id: Int)
 }
 
 // MARK: - Delegates

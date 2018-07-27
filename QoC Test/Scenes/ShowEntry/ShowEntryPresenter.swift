@@ -30,11 +30,12 @@ extension ShowEntryPresenter {
     
     func presentFetchedEntry(for response: ShowEntryModels.Response) {
         let viewModel = ShowEntryModels.ViewModel(
+            name: response.entry.name,
             title: response.entry.title,
             iconUrl: response.entry.thumbnails.first { $0.height == "100" }?.link ?? "",
             releaseDate: releaseDateFormatter.string(from: response.entry.releaseDate),
             summary: response.entry.summary,
-            price: response.entry.price + " " + response.entry.currency,
+            price: .localizedStringWithFormat("%.2f \(response.entry.currency)", response.entry.price),
             category: response.entry.category?.name ?? "",
             link: response.entry.link,
             publisherName: response.entry.author?.name ?? "",

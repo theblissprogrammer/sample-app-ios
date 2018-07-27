@@ -49,14 +49,14 @@
 		C50BCE33210A2BE900A1EE1C /* QocBusinessLogic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C50BCE32210A2BE900A1EE1C /* QocBusinessLogic.framework */; };
 		C50BCE34210A2BE900A1EE1C /* QocBusinessLogic.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C50BCE32210A2BE900A1EE1C /* QocBusinessLogic.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C50BCE35210A2D9C00A1EE1C /* AppModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5091E762109517C0052112D /* AppModels.swift */; };
-		C50BCE38210A37AB00A1EE1C /* EntrySummaryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C50BCE37210A37AB00A1EE1C /* EntrySummaryView.xib */; };
-		C50BCE3A210A37E500A1EE1C /* EntrySummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50BCE39210A37E500A1EE1C /* EntrySummaryView.swift */; };
 		C50BCE3D210A383300A1EE1C /* ShowEntryModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50BCE3C210A383300A1EE1C /* ShowEntryModels.swift */; };
 		C50BCE3F210A3F4D00A1EE1C /* ShowEntryInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50BCE3E210A3F4D00A1EE1C /* ShowEntryInterfaces.swift */; };
 		C50BCE41210A3FC300A1EE1C /* ShowEntryInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50BCE40210A3FC300A1EE1C /* ShowEntryInteractor.swift */; };
 		C50BCE43210A410800A1EE1C /* ShowEntryPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50BCE42210A410800A1EE1C /* ShowEntryPresenter.swift */; };
 		C50BCE46210A44B200A1EE1C /* AppRoutable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50BCE45210A44B200A1EE1C /* AppRoutable.swift */; };
 		C50BCE48210A45CF00A1EE1C /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50BCE47210A45CF00A1EE1C /* UIApplication.swift */; };
+		C50BCE51210AF89D00A1EE1C /* EntrySummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50BCE4E210AF89C00A1EE1C /* EntrySummaryView.swift */; };
+		C50BCE57210AFAF300A1EE1C /* EntrySummaryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C50BCE56210AFAF300A1EE1C /* EntrySummaryView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -135,14 +135,14 @@
 		C5091E7F21095BF10052112D /* ListEntriesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListEntriesRouter.swift; sourceTree = "<group>"; };
 		C5091E8121095D740052112D /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		C50BCE32210A2BE900A1EE1C /* QocBusinessLogic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = QocBusinessLogic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C50BCE37210A37AB00A1EE1C /* EntrySummaryView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EntrySummaryView.xib; sourceTree = "<group>"; };
-		C50BCE39210A37E500A1EE1C /* EntrySummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntrySummaryView.swift; sourceTree = "<group>"; };
 		C50BCE3C210A383300A1EE1C /* ShowEntryModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowEntryModels.swift; sourceTree = "<group>"; };
 		C50BCE3E210A3F4D00A1EE1C /* ShowEntryInterfaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowEntryInterfaces.swift; sourceTree = "<group>"; };
 		C50BCE40210A3FC300A1EE1C /* ShowEntryInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowEntryInteractor.swift; sourceTree = "<group>"; };
 		C50BCE42210A410800A1EE1C /* ShowEntryPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowEntryPresenter.swift; sourceTree = "<group>"; };
 		C50BCE45210A44B200A1EE1C /* AppRoutable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRoutable.swift; sourceTree = "<group>"; };
 		C50BCE47210A45CF00A1EE1C /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
+		C50BCE4E210AF89C00A1EE1C /* EntrySummaryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntrySummaryView.swift; sourceTree = "<group>"; };
+		C50BCE56210AFAF300A1EE1C /* EntrySummaryView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EntrySummaryView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -411,8 +411,8 @@
 		C50BCE36210A376B00A1EE1C /* Controls */ = {
 			isa = PBXGroup;
 			children = (
-				C50BCE37210A37AB00A1EE1C /* EntrySummaryView.xib */,
-				C50BCE39210A37E500A1EE1C /* EntrySummaryView.swift */,
+				C50BCE4E210AF89C00A1EE1C /* EntrySummaryView.swift */,
+				C50BCE56210AFAF300A1EE1C /* EntrySummaryView.xib */,
 			);
 			path = Controls;
 			sourceTree = "<group>";
@@ -541,10 +541,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C50BCE57210AFAF300A1EE1C /* EntrySummaryView.xib in Resources */,
 				8B47A5CD20E0155900681404 /* ListEntriesTableViewCell.xib in Resources */,
 				8B1DC0DB20B1AE10009FBBBD /* LaunchScreen.storyboard in Resources */,
 				8B1DC0D820B1AE10009FBBBD /* Assets.xcassets in Resources */,
-				C50BCE38210A37AB00A1EE1C /* EntrySummaryView.xib in Resources */,
 				C5091E8221095D740052112D /* Localizable.strings in Resources */,
 				8BF2CCCD20B6D85500C9C161 /* ShowEntry.storyboard in Resources */,
 				8BF2CCC920B6D83F00C9C161 /* ListEntries.storyboard in Resources */,
@@ -602,6 +602,7 @@
 				C50BCE35210A2D9C00A1EE1C /* AppModels.swift in Sources */,
 				8B9CE08C20D73CAA0077E4A0 /* CoreApplicationService.swift in Sources */,
 				C50BCE46210A44B200A1EE1C /* AppRoutable.swift in Sources */,
+				C50BCE51210AF89D00A1EE1C /* EntrySummaryView.swift in Sources */,
 				8B8B33D520DA6D0000E80706 /* EntriesDataViewAdapter.swift in Sources */,
 				C5091E78210951890052112D /* AppDisplayable.swift in Sources */,
 				C50BCE3F210A3F4D00A1EE1C /* ShowEntryInterfaces.swift in Sources */,
@@ -609,7 +610,6 @@
 				C5091E6E21094C6F0052112D /* ListEntriesPresenter.swift in Sources */,
 				8B47A5DC20E107C100681404 /* AppButton.swift in Sources */,
 				8B47A5DE20E107CB00681404 /* AppLabel.swift in Sources */,
-				C50BCE3A210A37E500A1EE1C /* EntrySummaryView.swift in Sources */,
 				C50BCE3D210A383300A1EE1C /* ShowEntryModels.swift in Sources */,
 				8B80D75B20DC518100D6617B /* EntriesDataViewModels.swift in Sources */,
 				8B9CE09020D73CC60077E4A0 /* BootApplicationService.swift in Sources */,

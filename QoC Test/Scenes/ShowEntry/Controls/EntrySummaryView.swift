@@ -1,8 +1,9 @@
 //
-//  EntrySummaryView.swift
-//  QoC Test
+//  JobSummary.swift
+//  Jiffy
 //
-//  Created by Ahmed Saad on 2018-07-26.
+//  Created by Basem Emara on 2018-01-04.
+//  Copyright © 2018 Jiffy Inc. All rights reserved.
 //
 
 import UIKit
@@ -26,9 +27,9 @@ class EntrySummaryView: XIBView {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        //addCardShadow()
     }
 }
+
 
 // MARK: - Public API's
 

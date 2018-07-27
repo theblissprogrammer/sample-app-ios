@@ -21,7 +21,7 @@ open class Dependency: Dependable {
     // MARK: - Store
     
     open func resolveStore() -> EntriesStore {
-        return EntriesNetworkStore(apiService: resolveService())
+        return EntriesNetworkStore(httpService: resolveService())
     }
     
     // MARK: - Service

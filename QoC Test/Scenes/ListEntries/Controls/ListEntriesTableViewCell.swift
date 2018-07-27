@@ -16,6 +16,10 @@ class ListEntriesTableViewCell: UITableViewCell, EntriesDataViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         
+        preservesSuperviewLayoutMargins = false
+        separatorInset = UIEdgeInsets.zero
+        layoutMargins = UIEdgeInsets.zero
+        
         containerView.backgroundColor = .black
         titleLabel.textColor = .white
         featuredImage.cornerRadius = 10

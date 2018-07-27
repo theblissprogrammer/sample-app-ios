@@ -80,7 +80,7 @@ extension EntriesWorker {
         }
     }
     
-    func fetch(id: String, completion: @escaping (Result<EntryType, DataError>) -> Void) {
+    func fetch(id: Int, completion: @escaping (Result<EntryType, DataError>) -> Void) {
         // Use cache storage if applicable
         guard let cacheStore = cacheStore else {
             return store.fetch {
@@ -94,19 +94,5 @@ extension EntriesWorker {
         }
         
         cacheStore.fetch(id: id, completion: completion)
-    }
-}
-
-extension EntriesWorker {
-    
-    func fetch(byCategoryIDs ids: Set<String>, completion: @escaping (Result<[EntryType], DataError>) -> Void) {
-        cacheStore?.fetch(byCategoryIDs: ids, completion: completion)
-    }
-}
-
-extension EntriesWorker {
-    
-    func search(with request: EntriesModels.SearchRequest, completion: @escaping (Result<[EntryType], DataError>) -> Void) {
-        cacheStore?.search(with: request, completion: completion)
     }
 }

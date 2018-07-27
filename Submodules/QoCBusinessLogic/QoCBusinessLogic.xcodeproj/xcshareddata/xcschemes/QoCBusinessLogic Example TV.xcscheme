@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8B0D649320BEB7220046056F"
-               BuildableName = "SwiftyPress Example TV.app"
-               BlueprintName = "SwiftyPress Example TV"
+               BuildableName = "QoCBusinessLogic Example TV.app"
+               BlueprintName = "QoCBusinessLogic Example TV"
                ReferencedContainer = "container:QoCBusinessLogic.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -33,8 +33,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8B0D646B20BEB27B0046056F"
-               BuildableName = "SwiftyPress tvOSTests.xctest"
-               BlueprintName = "SwiftyPress tvOSTests"
+               BuildableName = "QoCBusinessLogic tvOSTests.xctest"
+               BlueprintName = "QoCBusinessLogic tvOSTests"
                ReferencedContainer = "container:QoCBusinessLogic.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -43,8 +43,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8B0D649320BEB7220046056F"
-            BuildableName = "SwiftyPress Example TV.app"
-            BlueprintName = "SwiftyPress Example TV"
+            BuildableName = "QoCBusinessLogic Example TV.app"
+            BlueprintName = "QoCBusinessLogic Example TV"
             ReferencedContainer = "container:QoCBusinessLogic.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -66,8 +66,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8B0D649320BEB7220046056F"
-            BuildableName = "SwiftyPress Example TV.app"
-            BlueprintName = "SwiftyPress Example TV"
+            BuildableName = "QoCBusinessLogic Example TV.app"
+            BlueprintName = "QoCBusinessLogic Example TV"
             ReferencedContainer = "container:QoCBusinessLogic.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -85,8 +85,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8B0D649320BEB7220046056F"
-            BuildableName = "SwiftyPress Example TV.app"
-            BlueprintName = "SwiftyPress Example TV"
+            BuildableName = "QoCBusinessLogic Example TV.app"
+            BlueprintName = "QoCBusinessLogic Example TV"
             ReferencedContainer = "container:QoCBusinessLogic.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

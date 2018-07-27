@@ -8,11 +8,11 @@
 import ZamzamKit
 
 public struct Entry: EntryType, Decodable {
-    public var id: String = ""
+    public var id: Int = 0
     public var name: String = ""
     public var thumbnails: [Thumbnails] = []
     public var summary: String = ""
-    public var price: String = ""
+    public var price: Double = 0.0
     public var currency: String = ""
     public var contentType: String = ""
     public var copyright: String = ""
@@ -50,7 +50,7 @@ extension Entry {
         let container = try decoder.container(keyedBy: CodingKeys.self)
         
         let idContainter = try container.nestedContainer(keyedBy: SubCodingKeys.self, forKey: .id).nestedContainer(keyedBy: AttributeCodingKeys.self, forKey: .attributes)
-        self.id = try idContainter.decode(String.self, forKey: .id)
+        self.id = try Int(idContainter.decode(String.self, forKey: .id)) ?? 0
         
         let nameContainter = try container.nestedContainer(keyedBy: SubCodingKeys.self, forKey: .name)
         self.name = try nameContainter.decode(String.self, forKey: .label)
@@ -62,7 +62,7 @@ extension Entry {
         
         let priceContainter = try container.nestedContainer(keyedBy: SubCodingKeys.self, forKey: .price).nestedContainer(keyedBy: AttributeCodingKeys.self, forKey: .attributes)
         
-        self.price = try priceContainter.decode(String.self, forKey: .amount)
+        self.price = try Double(priceContainter.decode(String.self, forKey: .amount)) ?? 0.0
         self.currency = try priceContainter.decode(String.self, forKey: .currency)
         
         let contentTypeContainter = try container.nestedContainer(keyedBy: SubCodingKeys.self, forKey: .contentType).nestedContainer(keyedBy: AttributeCodingKeys.self, forKey: .attributes)

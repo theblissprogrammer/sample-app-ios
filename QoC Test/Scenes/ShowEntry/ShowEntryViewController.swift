@@ -36,7 +36,7 @@ class ShowEntryViewController: UIViewController, HasDependencies {
     
     // MARK: - Internal variables
     
-    var entryID: String! //Must assign or die
+    var entryID: Int! //Must assign or die
     
     // MARK: - Controller cycle
     
@@ -62,7 +62,7 @@ private extension ShowEntryViewController {
     func loadUI() {
         guard let viewModel = viewModel else { return }
         
-        title = viewModel.title
+        title = viewModel.name
         entrySummaryView.bind(viewModel)
     }
 }
